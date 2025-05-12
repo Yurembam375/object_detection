@@ -1,16 +1,20 @@
-# object_detection_native
+# Flutter Object Detection (Native ML Kit)
 
-A new Flutter project.
+A Flutter app that performs real-time object detection using Android's native ML Kit APIs via platform channels, without using any third-party `pub.dev` packages.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Live camera preview using CameraX (Android)
+- Object detection via native ML Kit API
+- Communication between Flutter and Android using platform channels
+- Permission handling for camera access
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Setup Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/yourusername/object_detection_native.git
+cd object_detection_native
